@@ -1,5 +1,5 @@
-Welcome to SkyPilot!
-====================
+SkyPilot: Run AI on Any Infrastructure
+======================================
 
 .. image:: /_static/SkyPilot_wide_dark.svg
   :width: 50%
@@ -14,10 +14,6 @@ Welcome to SkyPilot!
 
 .. raw:: html
 
-   <p style="text-align:center">
-   <strong>Simplify & scale any AI infrastructure</strong>
-   </p>
-
    <p></p>
 
    <p style="text-align:center">
@@ -26,7 +22,7 @@ Welcome to SkyPilot!
    <script async defer src="https://buttons.github.io/buttons.js"></script>
    </p>
 
-SkyPilot is a system for running, managing, and scaling AI workloads on any AI infrastructure.
+SkyPilot is a system to run, manage, and scale AI workloads on any AI infrastructure.
 
 SkyPilot gives **AI teams** a simple interface to run jobs on any infra.
 **Infra teams** get a unified control plane to manage any AI compute — with advanced scheduling, scaling, and orchestration.
@@ -34,6 +30,11 @@ SkyPilot gives **AI teams** a simple interface to run jobs on any infra.
 .. image:: ../images/skypilot-abstractions-long-2.png
     :width: 90%
     :align: center
+    :class: only-light
+.. image:: ../images/skypilot-abstractions-long-2-dark.png
+    :width: 90%
+    :align: center
+    :class: only-dark
 
 .. grid:: 1 1 1 1
     :gutter: 3
@@ -204,9 +205,8 @@ SkyPilot **cuts your cloud costs & maximizes GPU availability**:
 
 SkyPilot supports your existing GPU, TPU, and CPU workloads, with no code changes.
 
-Current supported infra: Kubernetes, AWS, GCP, Azure, OCI, Lambda Cloud, Fluidstack,
-RunPod, Cudo, Digital Ocean, Paperspace, Cloudflare, Samsung, IBM, Vast.ai,
-VMware vSphere, Nebius.
+Current supported infra: Kubernetes, AWS, GCP, Azure, OCI, Nebius, Lambda Cloud, RunPod, Fluidstack,
+Cudo, Digital Ocean, Paperspace, Cloudflare, Samsung, IBM, Vast.ai, VMware vSphere, Seeweb, Prime Intellect.
 
 .. raw:: html
 
@@ -365,6 +365,6 @@ Read the research:
    CLI <../reference/cli>
    ../reference/api
    ../reference/config
-   SkyPilot State <../reference/architecture/state>
+   SkyPilot Internals <../reference/architecture/internals>
    ../developers/index
 
